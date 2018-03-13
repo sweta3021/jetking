@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jetkings-Better Life</title>
+    <!-- Favicon icon link -->
+    <link rel="shortcut icon" href="img/favicon-32.png" type="image/x-icon">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--Style CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/master-style.css"> -->
+    <!--FontAwesome-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <!-- jQuery files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Page on-load Popup -->
+    <script>
+    $(document).ready(function() {
+        $("#onload").modal('show');
+    });
+    </script>
+    <style type="text/css">
+        .pop-p1{
+            color: #000;
+            text-transform: uppercase;
+        }
+        .lecture-popup{
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <!--topbar start-->
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-8 hidden-xs">
+                    <div class="cta-wrapper">
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-phone fa-2x"></i></a></li>
+                            <li><strong style="float: left;">CALL US</strong>
+                                <br><a href="tel:05624033499">0562-403-3499</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 hidden-xs">
+                    <div class="social-wrapper" style="float: left;">
+                        <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/JetkingOfficial" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://www.youtube.com/user/jetkingsocial" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="http://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--topbar end-->
+    <!--Navigation start-->
+    <section class="banner">
+        <div id="undefined-sticky-wrapper" class="sticky-wrapper">
+            <nav class="navbar navbar-custom">
+                <div class="container">
+                    <div class="navbar-wrap">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" alt="jetkings"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="custom-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown"><a class="animsition-link servicepage dropbtn" href="#course-id">Courses <b class="caret"></b></a>
+                                    <div class="dropdown-content">
+                                        <ul>
+                                            <li><a href="#">Hardware and Networking Courses</a></li>
+                                            <li><a href="#">Online Live Career Courses</a></li>
+                                            <li><a href="#">Certification Courses</a></li>
+                                            <li><a href="#">Short Courses</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a class="page-scroll" href="#contact-id">Contact us</a></li>
+                                <!-- <li class="hidden-xs img-responsive"><img src="img/jetking-ref.png"></li> -->
+                                <li>
+                                    <button class="modalButton" data-popup="popupOne" id="top-home-button" style="background: transparent;border: none;margin-top: 15px;outline: none;"><img class="demo-lec" src="img/demo-gif.gif"></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navigation end -->
+        <!-- Slider Section -->
+        <div class="container head-sec">
+            <div class="row">
+                <div class=" image-cap col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <a href="http://www.jetking.com/online-courses.php"><img src="img/image.png" class="img-responsive"></a>
+                </div>
+                <!-- form section -->
+                <div class="form-wrap col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <!-- <div class="carousel-intro"> -->
+                    <div class="student-info col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="text-center">
+                            <h5><strong style="color:#e2002b;">Free Career</strong><b> Counselling</b></h5>
+                        </div>
+                        <div class="contact-form-wrapper text-center">
+                            <form name="contact-forms" id="contactForms">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="sr-only" for="name">Name</label>
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="sr-only" for="email">Email</label>
+                                            <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="sr-only" for="phone">Number</label>
+                                            <input type="text" name="phone" class="form-control" id="phone" placeholder="Number" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                        <div class="form-group">
+                                            <img id="captcha_img" src="img/images/captcha/captcha.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <div class="form-group">
+                                            <a href="#" onclick="document.getElementById('captcha_img').src='http://www.jetking.com/captcha.php?img=' + Math.random(); return false"><img src="img/images/captcha/refresh.jpg" alt="img" style="margin-left: -20px; width: 30px;"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <input type="text" name="phone" class="form-control" id="phone" placeholder="ENTER Captcha" required style="padding: 0px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" name="submit" id="contact-form" class="btn btn-primary btn-md col-lg-6 col-md-6 col-sm-6">Enquire now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider section ends -->
+    <!-- Course section start -->
+    <section class="course-sec" id="course-id">
+        <div class="container">
+            <div class="section-wrapper">
+                <h2 class="text-center">Hardware &amp; Networking Career Courses</h2>
+                <p>Our courses are designed in such a way where not only students are job-ready from Day 1, but also taught the most in-demand technologies relevant in the near future.</p>
+                <div class="content-sec">
+                    <div class="row text-center">
+                        <div class="section-wrap">
+                            <a href="hardware-network.html"><img src="img/jchne-cloud.png" class="img-responsive"></a>
+                        </div>
+                        <div class="section-wrap">
+                            <a href="master-admin.html"><img src="img/mna-cloud.png" class="img-responsive"></a>
+                        </div>
+                        <div class="section-wrap">
+                            <a href="smartgrad.html" class="img-responsive"><img src="img/smartgrad-cloud.png" class="img-responsive"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!-- Course section ends -->
+    <!-- certification Course section ends -->
+    <section class="certification-sec">
+        <div class="container">
+            <div class="certification-wrapper">
+                <h2 class="text-center">Certification courses</h2>
+                <p>Our courses are designed in such a way where not only students are job-ready from Day 1, but also taught the most in-demand technologies relevant in the near future.</p>
+                <div class="content-certification row text-center">
+                    <div class="certification-wrap">
+                        <a href="http://www.jetking.com/hardware-and-networking-certifications/ethical-hacking"><img src="img/ceh-v9.png" class="img-responsive" ></a>
+                    </div>
+                    <div class="certification-wrap">
+                        <a href="http://www.jetking.com/hardware-and-networking-certifications/mcsa-certification"><img src="img/mcsa.png" class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!-- certification Course section ends -->
+    <!-- online career Course section start -->
+    <section class="online-sec">
+        <div class="container">
+            <div class="online-wrapper">
+                <h2 class="text-center">Online Career Courses</h2>
+                <p>Our courses are designed in such a way where not only students are job-ready from Day 1, but also taughtthe most in-demand technologies relevant in the near future.</p>
+                <div class="content-online row text-center">
+                    <div class="online-wrap">
+                        <a href="http://www.jetking.com/online-courses/digital-marketing"><img src="img/digital-marketing.png" class="img-responsive"></a>
+                    </div>
+                    <div class="online-wrap">
+                        <a href="http://www.jetking.com/online-courses/cloud-computing"><img src="img/cloud-computing.png" class="img-responsive"></a>
+                    </div>
+                    <div class="online-wrap">
+                        <a href="http://www.jetking.com/online-courses/big-data"><img src="img/big-data.png" class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!--online career Course section ends -->
+    <!-- Slider Section -->
+    <section class="smart-slide">
+        <div id="home" class="slider-section">
+            <div id="tt-carousel" class="carousel tt-carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#tt-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#tt-carousel" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active fill">
+                        <div class="container">
+                            <img src="img/images/bg/smartlabplus.jpg" alt="slider-image">
+                        </div>
+                    </div>
+                    <div class="item fill">
+                        <div class="container">
+                            <img src="img/images/bg/benefits-to-students.jpg" alt="slider-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <img src="img/straight-img1.png" class="img-responsive">
+    </div>
+    <!--    slider ends-->
+    <!-- testimonial start -->
+    <section class="testimonial text-center">
+        <div class="container">
+            <div class="testimonial-wrapper">
+                <h2 class="text-center">Student speak</h2>
+                <div class="row">
+                    <div class="testimonial-wrap col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <img src="img/images/testimonials/harish.png" alt="img" class="img-responsive">
+                        <div class="testimonial-info">
+                            <img src="img/microsense.png" alt="img" class="img-responsive">
+                            <h4 class="text-star"><strong>Harish</strong>  <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></h4>
+                            <h6>Network Engineer</h6>
+                            <p>Jetking has helped me to start my career. I joined Jetking to complete MCSE2000 certification in 2013. After completing the certification, I was placed in Rohan Builders as System Administrator and later moved to Microsense Pvt Ltd as Network Engineer. I thank Jetking for offering me a successful career path.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrap col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <img src="img/images/testimonials/sindhu.png" alt="img" class="img-responsive">
+                        <div class="testimonial-info">
+                            <img src="img/mck.png" alt="img" class="img-responsive">
+                            <h4 class="text-star"><strong>Sindhu</strong>  <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></h4>
+                            <h6>Sr. Operation Specialist</h6>
+                            <p>After PUC, I started my course with Jetking, a place where average students can gain tremendous knowledge. The Faculty is really supportive and give individual attention. I got placed with FICO with excellent CTC, really appreciate the support Jetking has offered!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrap col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <img src="img/images/testimonials/sanjay.png" alt="img" class="img-responsive">
+                        <div class="testimonial-info">
+                            <img src="img/wipro-logo.png" alt="img" class="img-responsive">
+                            <h4 class="text-star"><strong>Sanjay</strong>  <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></h4>
+                            <h6>L1 Support engineer</h6>
+                            <p>After joining jetking,I improved my confidence level and hadware & netwoking knowledge</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrap col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <img src="img/images/testimonials/anoop.png" alt="img" class="img-responsive">
+                        <div class="testimonial-info">
+                            <img src="img/accenture-logo.png" alt="img" class="img-responsive">
+                            <h4 class="text-star"><strong>Anoop</strong>  <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></h4>
+                            <h6>IT Operator</h6>
+                            <p>Jetking has helped me grow both professionally and personally. The course structure is extremely relevant and focused on practicals which helped me score high in certification. The personality development module has really helped me crack the interview and today I am working in my dream company.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!-- testimonial end -->
+    <!-- life at jetkings start -->
+    <section class="life-section">
+        <div class="container">
+            <div class="life-wrap">
+                <h2>Life At Jetking</h2>
+                <div class="row">
+                    <div class="img-wrap col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="img/images/life-jet/career.jpg" alt="img" class="img-responsive col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/images/life-jet/league.jpg" alt="img" class="img-responsive col-lg-6 col-md-6 col-xs-6">
+                        <!-- <div class="col-md-12"> -->
+                        <img src="img/images/life-jet/annual.jpg" alt="img" class="img-responsive col-lg-12 col-md-12 col-xs-12">
+                        <!-- </div> -->
+                    </div>
+                    <div class="img-wrap col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="img/images/life-jet/celebration.jpg" alt="img" class="img-responsive col-lg-6 col-md-6 col-xs-6" style="height: 350px;">
+                        <img src="img/images/life-jet/placement.jpg" alt="img" class="img-responsive col-lg-6 col-md-6 col-xs-6" style="height: 350px;">
+                    </div>
+                    <div class="img-wrap col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="img/images/life-jet/parents.jpg" alt="img" class="img-responsive col-lg-6 col-md-6 col-xs-6">
+                        <img src="img/images/life-jet/yoga.jpg" alt="img" class="img-responsive col-lg-6 col-md-6 col-xs-6">
+                        <img src="img/images/life-jet/skill-day.jpg" alt="img" class="img-responsive col-lg-12 col-md-12 col-xs-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!-- life at jetkings end -->
+    <!-- video section start-->
+    <section class="video-sec">
+        <div class="container">
+            <div class="video-wrapper">
+                <h2 class="text-center">Videos</h2>
+                <div class="video-content">
+                    <div class="row text-center">
+                        <div class="video-wrap col-lg-3 col-md-3 col-sm-6">
+                            <iframe width="100%" height="150" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-wrap col-lg-3 col-md-3 col-sm-6">
+                            <iframe width="100%" height="150" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-wrap col-lg-3 col-md-3 col-sm-6">
+                            <iframe width="100%" height="150" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-wrap col-lg-3 col-md-3 col-sm-6">
+                            <iframe width="100%" height="150" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!-- video section ends-->
+    <!-- Client Section -->
+    <section id="client-slide" class="service-section ">
+        <div class="container">
+            <div class="client-wrapper">
+                <div class="section-title">
+                    <h2 class="text-center">Our 5000+ Recruitment Partners</h2>
+                </div>
+                <!--/.Section Title end -->
+                <div class="col-md-12">
+                    <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/reliance.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/capgemini.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/wysetek.png" alt="TCS" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/magnamious.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/ibm.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/iyogi.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/f-tech.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/wipro.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/vodafone.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="#"><img src="img/images/partners/tcs.png" class="img-responsive"></a></div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client Section end -->
+    <!--sticky footer start -->
+    <div class="navbar fixed-footer footer-top">
+        <div class="container">
+            <nav class="megamenu footer-menu">
+                <div class="collapse navbar-collapse">
+                    <form method="post" id="subscribe-form" name="mc-embedded-subscribe-form" class="navbar-form navbar-left">
+                        <label>Sign Up For Newsletter</label>
+                        <div class="input-group">
+                            <input name="email" id="subscribe-form-input" type="email" placeholder="Your Email" required>
+                            <button class="btn btn-info btn-md" id="btn-subscribe" type="submit">SubScribe</button>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li style="font-size: 20px;">| </li>
+                        <li>
+                            <button type="button" class="btn footer-pop-btn modalButton" id="footer-f-btn" data-popup="popupOne2"> Register For Career Counselling</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--sticky footer end-->
+    <div class="side-right-button">
+        <a href="#" class="btn btn-primary btn-normal btn-inline hidden-xs"> <i class="fa fa-commenting"></i> live chat</a>
+    </div>
+    <!-- our affiliation Section -->
+    <section id="affiliation-sec" class="service-section ">
+        <div class="container">
+            <div class="affiliation-wrapper">
+                <div class="affiliation-title">
+                    <h2 class="text-center">Our Affiliation</h2>
+                </div>
+                <!--/.Section Title end -->
+                <div class="affiliation-content">
+                    <div class="row text-center">
+                        <div class="affiliation-wrap">
+                            <div class="affiliation-img">
+                                <img src="img/images/affiliation/nsdc.jpg" class="img-responsive" alt="image">
+                            </div>
+                            <div class="affiliation-img">
+                                <img src="img/images/affiliation/microsoft-partner.jpg" class="img-responsive" alt="image">
+                            </div>
+                            <div class="affiliation-img">
+                                <img src="img/images/affiliation/ec-council.jpg" class="img-responsive" alt="image">
+                            </div>
+                            <div class="affiliation-img">
+                                <img src="img/images/affiliation/enterp.jpg" class="img-responsive" alt="image">
+                            </div>
+                            <div class="affiliation-img">
+                                <img src="img/images/affiliation/redhat.jpg" class="img-responsive" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/straight-img1.png" class="img-responsive">
+        </div>
+    </section>
+    <!-- our affiliation Section end -->
+    <!-- legacy section start -->
+    <section class="legacy text-center">
+        <div class="container">
+            <div class="legacy-wrap">
+                <div class="row">
+                    <div class="text-image col-lg-2 col-md-2 col-xs-6">
+                        <a href="http://www.jetking.com/legacy.php"><img src="img/images/icons/india-1.png" alt="skill"></a>
+                        <p>India's No 1 Digital Skills Institute</p>
+                    </div>
+                    <div class="text-image col-lg-2 col-md-2 col-xs-6">
+                        <a href="http://www.jetking.com/legacy.php"><img src="img/images/icons/27years.png" alt="leadership"></a>
+                        <p>27 Years of IT Training Leadership</p>
+                    </div>
+                    <div class="text-image col-lg-2 col-md-2 col-xs-6">
+                        <a href="#"><img src="img/images/icons/7lac.png" alt="success"></a>
+                        <p>Successfully Trained over 7 lac Students</p>
+                    </div>
+                    <div class="text-image col-lg-2 col-md-2 col-xs-6">
+                        <a href="#"><img src="img/images/icons/partnership.png" alt="NSDC"></a>
+                        <p>Partnership with NSDC</p>
+                    </div>
+                    <div class="text-image col-lg-2 col-md-2 col-xs-6">
+                        <a href="http://www.jetking.com/legacy.php"><img src="img/images/icons/100plus.png" alt="success"></a>
+                        <p>Sucessful Centers</p>
+                    </div>
+                    <div class="text-image col-lg-2 col-md-2 col-xs-6">
+                        <a href="http://www.jetking.com/awards.php"><img src="img/images/icons/record.png" alt="LIMCA"></a>
+                        <p>Official winner of LIMCA BOOK OF RECORDs for record no. of job placements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- legacy section end -->
+    <!-- Latest News & Updates section Start here -->
+    <div class="container" id="news-updates">
+        <div class="section-add col-md-12 col-sm-12">
+            <div class="section-title h1">
+                LATEST NEWS & UPDATES
+            </div>
+            <div class="section-content">
+                <div class="row text-center" k-repeat="[[Business.updates, i, 0:7]]">
+                    <a href="single-post.html" target="_blank">
+                        <div class="col-sm-3" title="News 1">
+                            <div class="news-card">
+                                <p align="center"><img src="img/image1.png" class="img-responsive" alt="News 1"></p>
+                                <div class="news-content">
+                                    <h4 align="center">News 1</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single-post.html" target="_blank">
+                        <div class="col-sm-3" title="News 2">
+                            <div class="news-card">
+                                <p align="center"><img src="img/image1.png" class="img-responsive" alt="News 2"></p>
+                                <div class="news-content">
+                                    <h4 align="center">News 2</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single-post.html" target="_blank">
+                        <div class="col-sm-3" title="News 3">
+                            <div class="news-card">
+                                <p align="center"><img src="img/image1.png" class="img-responsive" alt="News 3"></p>
+                                <div class="news-content">
+                                    <h4 align="center">News 3</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single-post.html" target="_blank">
+                        <div class="col-sm-3" title="News 4">
+                            <div class="news-card">
+                                <p align="center"><img src="img/image1.png" class="img-responsive" alt="News 4"></p>
+                                <div class="news-content">
+                                    <h4 align="center">News 4</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p align="center"><a href="blog-list.html" class="btn btn-danger pull-center btn-lg">More News & Updates</a></p>
+        </div>
+    </div>
+    <!-- /.Latest News & Updates section end here -->
+    <!-- contact section start -->
+    <section class="contact-us text-center" id="contact-id">
+        <div class="container">
+            <div class="contact-wrap" style="background-image: url('img/images/bg/bg-1.jpg');">
+                <div class="contact-head" style="border-bottom: 3px solid #fff;">
+                    <h2>Contact us</h2>
+                </div>
+                <p>5th Floor, Amore Bldg, Junction of 2nd &4th Road, Khar(W), Mumbai-400052</p>
+                <p><a href="mailTo:info@jetking.com">info@jetking.com</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+    <!-- /.Partners Section end here -->
+    <div class="side-button">
+        <a href="#" class="btn btn-primary btn-normal btn-inline hidden-xs modalButton" id="modal-button" data-popup="popupOne1"> <i class="fa fa-book"></i> download prospectus</a>
+    </div>
+    <div class="side-rightbottom-button">
+        <a href="#" class="btn btn-primary hidden-xs">Register for free <br>career counselling!</a>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-12 col-md-12 col-xs-12">
+                    <p class="copy-text">&copy; Copyright 2017 Jetking Infotrain Ltd. All rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content" style="color:#000;">
+        <div class="modal-header" >
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="color:#000;font-size: 64px; text-align: center;">
+          <p>Thank You We Will get back to you soon!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <section class="lecture-popup">
+        <div class="modal modalWindow" id="popupOne" style="background: url(http://www.jetking.com/landing-assets/img/home/popup-bg.jpg);">
+            <section class="modalWrapper">
+                <form id="popup" name="popup" method="POST" class="text-center">
+                    <!-- <a class="close" data-dismiss="modal">×</a> -->
+                    <div class="pop-patch">
+                        <p class="pop-p1"><span style="color:#e2002b;">Free</span> Counselling &amp; <span style="color:#e2002b;">CAREER</span> Advice</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top: 20px; ">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" name="first_name" id="popup_first_name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Valid Email Address" name="emailid" id="popup_emailid" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter mobile number" name="mobileno" id="popup_mobileno" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="state" id="popup1_selectStates">
+                                        <!-- <option value="">Select Your State</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="city" id="popup1_selectCities">
+                                        <!-- <option value="">Select Your City</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="center" id="popup1_selectCentres">
+                                        <!-- <option value="">Select your preferred Jetking center</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="demoption" id="popup_option">
+                                        <option value="">Select Your Preferred Option</option>
+                                        <option value="Attend Demo Lecture">Attend Demo Lecture</option>
+                                        <option value="Home Counselling">Home Counselling</option>
+                                        <option value="Enquire Now">Enquire Now</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 mp-r">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Captcha" name="captcha" id="popup1_captcha">
+                                    <input type="hidden" name="current_url" id="current_url" value="http://www.jetking.com/google-search.php">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <img id="captcha_img1" src="img/images/captcha/captcha.jpg">
+                                </div>
+                            </div>
+                            <div class="col-md-1" style="padding-left: 0;">
+                                <div class="form-group">
+                                    <a href="#" onclick="document.getElementById('captcha_img1').src='http://www.jetking.com/captcha.php?img=' + Math.random(); return false"><img src="img/images/captcha/refresh.jpg" width="25" alt="" id="refresh"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-red btn-lg" id="free-register-btn" data-dismiss="modal"  style="background: #e14045;">Submit</button>
+                </form>
+            </section>
+            <a class="closeBtn" data-dismiss="modal">X</a>
+        </div>
+        <!-- <section class="modal overlay"></section> -->
+    </section>
+    <!-- download prospectus -->
+    <section class="lecture-popup">
+        <div class="modal modalWindow" id="popupOne1" style="background: url(http://www.jetking.com/landing-assets/img/home/popup-bg.jpg);">
+            <section class="modalWrapper">
+                <form id="download" name="download" method="POST" class="text-center">
+                    <!-- <a class="close" data-dismiss="modal">×</a> -->
+                    <div class="pop-patch">
+                        <p class="pop-p1"><span style="color:#e2002b;">Free</span> Download Prospectus !</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top: 20px; ">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" name="first_name" id="download_first_name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Valid Email Address" name="emailid" id="download_emailid" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter mobile number" name="mobileno" id="download_mobileno" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="state" id="popup1_selectStates">
+                                        <!-- <option value="">Select Your State</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="city" id="popup1_selectCities">
+                                        <!-- <option value="">Select Your City</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="center" id="popup1_selectCentres">
+                                        <!-- <option value="">Select your preferred Jetking center</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Please enter Captcha" name="captcha" id="download_captcha" style="width: 138px;     margin: 0 auto;">
+                                    <input type="hidden" name="current_url" id="current_url" value="http://www.jetking.com/google-search.php">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <img id="captcha_img2" src="img/images/captcha/captcha.jpg">
+                                    <a href="#" onclick="document.getElementById('captcha_img2').src='http://www.jetking.com/captcha.php?img=' + Math.random(); return false"> &nbsp; &nbsp; <img src="img/images/captcha/refresh.jpg" width="25" alt="" id="refresh"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-red btn-lg" id="download-prospectus-btn" data-dismiss="modal"  style="background: #e14045;">Submit</button>
+                </form>
+            </section>
+            <a class="closeBtn" data-dismiss="modal">X</a>
+        </div>
+        <section class="modal overlay" data-dismiss="modal"></section>
+    </section>
+    <!-- Register for career counselling-->
+    <section class="lecture-popup">
+        <div class="modal modalWindow" id="popupOne2" style="background: url(http://www.jetking.com/landing-assets/img/home/popup-bg.jpg);">
+            <section class="modalWrapper">
+                <form id="popup1" name="popup1" method="POST" class="text-center">
+                    <!-- <a class="close" data-dismiss="modal">×</a> -->
+                    <div class="pop-patch">
+                        <p class="pop-p1">Register For <span style="color:#e2002b;">Free</span> Career Counselling !</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top: 20px; ">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" name="first_name" id="popup1_first_name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Valid Email Address" name="emailid" id="popup1_emailid" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter mobile number" name="mobileno" id="popup1_mobileno" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="state" id="popup1_selectStates">
+                                        <!-- <option value="">Select Your State</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="city" id="popup1_selectCities">
+                                        <!-- <option value="">Select Your City</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="center" id="popup1_selectCentres">
+                                        <!-- <option value="">Select your preferred Jetking center</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Please enter Captcha" name="captcha" id="popup_captcha">
+                                    <input type="hidden" name="current_url" id="current_url" value="http://www.jetking.com/google-search.php">
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <img id="captcha_img3" src="img/images/captcha/captcha.jpg">
+                                    <a href="#" onclick="document.getElementById('captcha_img3').src='http://www.jetking.com/captcha.php?img=' + Math.random(); return false"> &nbsp; &nbsp; <img src="img/images/captcha/refresh.jpg" width="25" alt="" id="refresh"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-red btn-lg" id="register-btn" data-dismiss="modal"  style="background: #e14045;">Submit</button>
+                </form>
+            </section>
+            <a class="closeBtn" data-dismiss="modal">X</a>
+            <!-- .Banner form end here -->
+        </div>
+        <!-- <section class="modal overlay"></section> -->
+    </section>
+    <a href="stop" class="scrollTop"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+    <!-- javascript files -->
+    <script type="text/javascript" src="js/jquery.simplr.smoothscroll.min.js"></script>
+    <script type="text/javascript" src="js/exit-popup.min.js"></script>
+    <script type="text/javascript" src="js/scrolltop.js"></script>
+    <!-- <script type="text/javascript" src="js/myScript.js"></script> -->
+    <script type="text/javascript" src="js/autoPopulateDropdown.js"></script>
+    <script>
+    //Replace the three parameters with your script tag.
+    $(document).ready(function(){
+            autoPopulateDropdown("select#popup1_selectStates","select#popup1_selectCities","select#popup1_selectCentres"); // this can be called any number of times
+        });//end
+    </script>
+
+    <!-- <script type="text/javascript" src="js/magnific-popup.js"></script> -->
+    <!-- <script type="text/javascript" src="js/shortcut.js"></script> -->
+    <!-- <script type="text/javascript" src="js/jetking.min.js"></script>
+    <script src="js/custom.js"></script> -->
+
+    <script type="text/javascript">
+    $('.client-wrapper .carousel[data-type="multi"] .item').each(function() {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+
+        for (var i = 0; i < 4; i++) {
+            next = next.next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+
+            next.children(':first-child').clone().appendTo($(this));
+        }
+    });
+    </script>
+    <script type="text/javascript">
+    // $("#mc-embedded-subscribe-form").submit(function(e) {
+    //     return false;
+    // });
+    $("#btn-subscribe").click(function() {
+        var email = $("#subscribe-form-input").val();
+        KitsuneSubscribe(email, function(successdata) {
+            alert(successdata);
+        }, function(errdata) {
+            alert(errdata);
+        });
+    });
+    </script>
+
+    <script type="text/javascript">
+    settings = {
+        //Model Popup
+        objModalPopupBtn: ".modalButton",
+        objModalCloseBtn: ".overlay, .closeBtn",
+        objModalDataAttr: "data-popup"
+    }
+    $(settings.objModalPopupBtn).bind("click", function() {
+        if ($(this).attr(settings.objModalDataAttr)) {
+
+            var strDataPopupName = $(this).attr(settings.objModalDataAttr);
+
+
+            //Fade In Modal Pop Up
+            $(".overlay, #" + strDataPopupName).fadeIn(170);
+
+        }
+    });
+
+    //On clicking the modal background
+    $(settings.objModalCloseBtn).bind("click", function() {
+        $(".modal").fadeOut(90);
+    });
+    </script>
+
+    <script>
+    $("#contact-form").on("click",function(){
+
+      var name = $("[name='name']").val();
+      var number = $("[name='phone']").val();
+      var email = $("[name='email']").val();
+      var obj = {
+        cname: name,
+        cnumber: number,
+        cmail: email
+    };
+     KitsuneContact(obj,function(data){
+        if(data){
+            alert("We will get back to you");
+        }
+      },function(err){
+          alert("something went wrong!");
+      });
+     });
+     function KitsuneContact(obj,success,wrong){
+       if (!obj) return void wrong("Please provide valid input.");
+            var fptag = $("[id='GET-VALUE(FLOATING-TAG)']").text();
+            var name = obj.cname;
+            var phone = obj.cnumber;
+            var email = obj.cmail;
+            $.ajax({
+              url: "https://api.kitsune.tools/WebAction/v1/careerCounselling/add-data",
+              type: 'POST',
+        contentType: 'application/json',
+              headers: {
+                'Authorization': '596894ab5d64390e108ff2b1'
+              },
+ data: JSON.stringify({
+                "ActionData" :{
+                  "name" : name, 
+                  "mobile": phone,
+                  "email" : email
+                  
+                 
+                },
+   
+                "WebsiteId" : fptag
+              }),
+              success: function (result) {
+                if(result != null || result != ""){
+                  return "We will get back to you ASAP!";
+                }
+              },
+              error: function (error) {
+                if(result == null || result == ""){
+                  return "Oops something went berserk!";
+                }
+              }
+            })
+      }
+    </script>
+    <script>
+    $("#free-register-btn").on("click",function(){
+
+      var name = $("[name='first_name']").val();
+      var mobile = $("[name='mobileno']").val();
+      var email = $("[name='emailid']").val();
+      var state = $("[name='state']").val();
+      var city = $("[name='city']").val();
+      var center = $("[name='center']").val();
+      var obj = {
+        pname: name,
+        pnumber: mobile,
+        pmail: email,
+        pstate: state,
+        pcity: city,
+        pcenter: center
+    };
+     KitsuneFreeRegister(obj,function(data){
+        if(data){
+            alert("We will get back to you");
+        }
+      },function(err){
+          alert("something went wrong!");
+      });
+     });
+     function KitsuneFreeRegister(obj,success,wrong){
+       if (!obj) return void wrong("Please provide valid input.");
+            var fptag = $("[id='GET-VALUE(FLOATING-TAG)']").text();
+            var name = obj.pname;
+            var phone = obj.pnumber;
+            var email = obj.pmail;
+        var state = obj.pstate;
+        var city = obj.pcity;
+        var center = obj.pcenter;
+            $.ajax({
+              url: "https://api.kitsune.tools/WebAction/v1/careerCounselling/add-data",
+              type: 'POST',
+              contentType: 'application/json',
+              headers: {
+                'Authorization': '596894ab5d64390e108ff2b1'
+              },
+              data: JSON.stringify({
+                "ActionData" :{
+                  "name" : name, 
+                  "mobile": phone,
+                  "email" : email,
+                  "state" : state,
+                  "city" : city,
+                  "center" : center
+                },
+                "WebsiteId" : fptag
+              }),
+              success: function (result) {
+                if(result != null || result != ""){
+                  return "We will get back to you ASAP!";
+                }
+              },
+              error: function (error) {
+                if(result == null || result == ""){
+                  return "Oops something went berserk!";
+                }
+              }
+            })
+      }
+    </script>
+    <script>
+    $("#download-prospectus-btn").on("click",function(){
+
+      var name = $("[name='first_name']").val();
+      var mobile = $("[name='mobileno']").val();
+      var email = $("[name='emailid']").val();
+      var state = $("[name='state']").val();
+      var city = $("[name='city']").val();
+      var center = $("[name='center']").val();
+      var obj = {
+        pname: name,
+        pnumber: mobile,
+        pmail: email,
+        pstate: state,
+        pcity: city,
+        pcenter: center
+    };
+     KitsuneDownloadProspectus(obj,function(data){
+        if(data){
+            alert("We will get back to you");
+        }
+      },function(err){
+          alert("something went wrong!");
+      });
+     });
+     function KitsuneDownloadProspectus(obj,success,wrong){
+       if (!obj) return void wrong("Please provide valid input.");
+            var fptag = $("[id='GET-VALUE(FLOATING-TAG)']").text();
+            var name = obj.pname;
+            var phone = obj.pnumber;
+            var email = obj.pmail;
+        var state = obj.pstate;
+        var city = obj.pcity;
+        var center = obj.pcenter;
+            $.ajax({
+              url: "https://api.kitsune.tools/WebAction/v1/download_prospectus/add-data",
+              type: 'POST',
+              contentType: 'application/json',
+              headers: {
+                'Authorization': '596894ab5d64390e108ff2b1'
+              },
+              data: JSON.stringify({
+                "ActionData" :{
+                  "name" : name, 
+                  "mobile": phone,
+                  "email" : email,
+                  "state" : state,
+                  "city" : city,
+                  "center" : center
+                },
+                "WebsiteId" : fptag
+              }),
+              success: function (result) {
+                if(result != null || result != ""){
+                  return "We will get back to you ASAP!";
+                }
+              },
+              error: function (error) {
+                if(result == null || result == ""){
+                  return "Oops something went berserk!";
+                }
+              }
+            })
+      }
+    </script>
+    <script>
+    $("#register-btn").on("click",function(){
+
+      var name = $("[name='first_name']").val();
+      var mobile = $("[name='mobileno']").val();
+      var email = $("[name='emailid']").val();
+      var state = $("[name='state']").val();
+      var city = $("[name='city']").val();
+      var center = $("[name='center']").val();
+      var obj = {
+        pname: name,
+        pnumber: mobile,
+        pmail: email,
+        pstate: state,
+        pcity: city,
+        pcenter: center
+    };
+     KitsuneRegisterAdvice(obj,function(data){
+        if(data){
+            alert("We will get back to you");
+        }
+      },function(err){
+          alert("something went wrong!");
+      });
+     });
+     function KitsuneRegisterAdvice(obj,success,wrong){
+       if (!obj) return void wrong("Please provide valid input.");
+            var fptag = $("[id='GET-VALUE(FLOATING-TAG)']").text();
+            var name = obj.pname;
+            var phone = obj.pnumber;
+            var email = obj.pmail;
+        var state = obj.pstate;
+        var city = obj.pcity;
+        var center = obj.pcenter;
+            $.ajax({
+              url: "https://api.kitsune.tools/WebAction/v1/careerCounselling/add-data",
+              type: 'POST',
+              contentType: 'application/json',
+              headers: {
+                'Authorization': '596894ab5d64390e108ff2b1'
+              },
+              data: JSON.stringify({
+                "ActionData" :{
+                  "name" : name, 
+                  "mobile": phone,
+                  "email" : email,
+                  "state" : state,
+                  "city" : city,
+                  "center" : center
+                },
+                "WebsiteId" : fptag
+              }),
+              success: function (result) {
+                if(result != null || result != ""){
+                  return "We will get back to you ASAP!";
+                }
+              },
+              error: function (error) {
+                if(result == null || result == ""){
+                  return "Oops something went berserk!";
+                }
+              }
+            })
+      }
+    </script>
+</body>
+
+</html>
